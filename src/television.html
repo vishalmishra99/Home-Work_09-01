@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-size: cover;
+            width: 100%;
+            overflow: auto;
+        }
+        header{
+            background-color: rgb(114, 113, 113);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 8px;
+            color: white;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 10px;opacity: 0.6;
+            text-align: center;
+        }
+        section{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            grid-gap: 10px;
+            margin-left: 10px;
+        }
+        .card{
+            background-color: white;
+            border-radius: 20px;
+            height: 370px;
+            width: 290px;
+            transition: 0.3s ease-in;
+        }
+        .card:hover{
+            transform: scale(1.1);
+        }
+        p{
+            font-size: 25px;
+            margin-left: 10px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .image-size{
+            height: 180px;
+            margin-left: 15px;
+            width: 260px;
+        }
+        .rupees{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 25px;
+            margin-left: 15px;  
+        }
+        .section-container{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body background="/public/img/tv.jpg">
+    <header>
+        <h1>Televisions</h1>
+    </header>
+    <section>
+            <div class="card">
+                <p>Realme Tv</p>
+                <img src="/public/img/t1.png" alt="" class="image-size">
+                <span class="rupees"> &#8377;12,999</span>
+            </div>
+            <div class="card">
+                <p>Smasung Tv</p>
+                <img src="/public/img/t2.png" alt="" class="image-size">
+                <span class="rupees"> &#8377;23,999</span>
+            </div>
+            <div class="card">
+                <p>One Plus Tv</p>
+                <img src="/public/img/t3.png" alt=""  class="image-size">
+                <span class="rupees"> &#8377;15,999</span>
+            </div>
+            <div class="card">
+                <p>Redmi Smart Tv</p>
+                <img src="/public/img/t4.png" alt=""  class="image-size">
+                <span class="rupees"> &#8377;19,999</span>
+            </div>
+            <div class="card">
+                <p>Panasonic Tv</p>
+                <img src="/public/img/t5.png" alt="" class="image-size">
+                <span class="rupees"> &#8377;34,999</span>
+            </div>
+            <div class="card">
+                <p>Thomson Tv</p>
+                <img src="/public/img/t6.png" alt="" class="image-size">
+                <span class="rupees"> &#8377;35,999</span>
+            </div>
+            <div class="card">
+                <p>TCL Tv</p>
+                <img src="/public/img/t7.png" alt=""  class="image-size">
+                <span class="rupees"> &#8377;18,999</span>
+            </div>
+            <div class="card">
+                <p>Sony Bravia</p>
+                <img src="/public/img/t8.png" alt=""  class="image-size">
+                <span class="rupees"> &#8377;18,999</span>
+            </div>
+            <div class="card">
+                <p>Smasung Tv</p>
+                <img src="/public/img/t2.png" alt="" class="image-size">
+                <span class="rupees"> &#8377;23,999</span>
+            </div>
+    </section>
+    <section class="section-container">
+        
+</section>
+</body>
+</html>
